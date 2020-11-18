@@ -16,7 +16,6 @@ public class Main {
         for (int i = 0; i < myArray3.length; i++) {
 
             myArray3[i] = myArray2[i].substring(0, 1) + myArray2[i].substring(1).toLowerCase();
-
         }
         System.out.println(myArray3[0] + " " + myArray3[1] + " " + myArray3[2] + " " + myArray3[3] + " " + myArray3[4]);
     }
